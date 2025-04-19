@@ -33,7 +33,3 @@ This folder contains Arduino code for controlling the servo motors of a four-leg
 - Segment lengths: a1=4.5 cm, a2=6 cm, a3=5.4 cm.
 - Offsets: Left (±1 cm x, ±8.5 cm z), Right (±1 cm x, ±8.5 cm z).
 - Angles adjusted with small offsets (T1-5°, T3+6°) for error correction in output values.
-
-## License
-
-MIT License (see main repository `LICENSE` file).
