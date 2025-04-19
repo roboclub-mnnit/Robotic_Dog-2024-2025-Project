@@ -21,16 +21,23 @@ The robotic dog features four legs (front right, front left, back right, back le
 
 ## Repository Structure
 
-- `InverseKinematicsBothLeg.py`: Computes inverse kinematics for left and right legs based on user input.
-- `4LegsForwardSimulation.py`: Simulates all four legs in 3D with interactive sliders for joint angles.
-- `LeftLegSimulation.py`: Simulates the left leg in 3D.
-- `RightLegSimulation.py`: Simulates the right leg in 3D.
-- `Left-Back-Leg-Arduino.ino`: Arduino code for the left back leg's servos.
-- `Left-Front-Leg-Arduino.ino`: Arduino code for the left front leg's servos.
-- `Right-Back-Leg-Arduino.ino`: Arduino code for the right back leg's servos.
-- `Right-Front-Leg-Arduino.ino`: Arduino code for the right front leg's servos.
-- `README.md`: Project overview and instructions.
+- `Python Files/`
 
+  - `InverseKinematics.py`: Computes inverse kinematics for left and right legs based on user input.
+  - `4-Legs-Simulation.py`: Simulates all four legs in 3D with interactive sliders for joint angles.
+  - `Left-Leg-Simulation.py`: Simulates the left leg in 3D.
+  - `Right-Leg-Simulation.py`: Simulates the right leg in 3D.
+  - `README.md`: Detailed instructions and information specific to the Python simulations.
+
+- `Arduino Files/`
+
+  - `Left-Back-Leg-Arduino.ino`: Arduino code for controlling the left back leg's servo motors.
+  - `Left-Front-Leg-Arduino.ino`: Arduino code for controlling the left front leg's servo motors.
+  - `Right-Back-Leg-Arduino.ino`: Arduino code for controlling the right back leg's servo motors.
+  - `Right-Front-Leg-Arduino.ino`: Arduino code for controlling the right front leg's servo motors.
+  - `README.md`: Detailed instructions and information specific to the Arduino code.
+
+- `README.md`: This file, providing an overarching overview and instructions for the entire project.
 ## Hardware Requirements
 
 - Arduino-compatible microcontroller (e.g., Arduino Uno)
