@@ -176,8 +176,10 @@ H0_3 = np.dot(H0_2, H2_3)
 ## Photo Gallery
 
 - Manipulator Diagram:
-- Robotic Dog:
+  ![Manipulator diagram (2)](https://github.com/user-attachments/assets/547689ec-47d4-4785-8a73-501576a69edf)
 
-## License
+- Robotic Dog(Model):
+  ![0 (1)](https://github.com/user-attachments/assets/e60c13fa-f6de-4905-8958-86fc56c41778)
+- Robotic Dog(Actual Bot):
+  ![WhatsApp Image 2025-04-16 at 18 10 43_51172742](https://github.com/user-attachments/assets/fe38dabb-26d7-484d-bc63-3f1190e2d42a)
 
-This project is licensed under the MIT License. See the LICENSE file for details.
