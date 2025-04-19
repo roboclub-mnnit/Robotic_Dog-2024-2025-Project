@@ -21,23 +21,34 @@ The robotic dog features four legs (front right, front left, back right, back le
 
 ## Repository Structure
 
-- `Python Files/`
-
-  - `InverseKinematics.py`: Computes inverse kinematics for left and right legs based on user input.
-  - `4-Legs-Simulation.py`: Simulates all four legs in 3D with interactive sliders for joint angles.
-  - `Left-Leg-Simulation.py`: Simulates the left leg in 3D.
-  - `Right-Leg-Simulation.py`: Simulates the right leg in 3D.
-  - `README.md`: Detailed instructions and information specific to the Python simulations.
 
 - `Arduino Files/`
 
-  - `Left-Back-Leg-Arduino.ino`: Arduino code for controlling the left back leg's servo motors.
-  - `Left-Front-Leg-Arduino.ino`: Arduino code for controlling the left front leg's servo motors.
-  - `Right-Back-Leg-Arduino.ino`: Arduino code for controlling the right back leg's servo motors.
-  - `Right-Front-Leg-Arduino.ino`: Arduino code for controlling the right front leg's servo motors.
-  - `README.md`: Detailed instructions and information specific to the Arduino code.
+  - `Left-Back-Leg-Arduino.ino`: Firmware for controlling the left back leg servos.
+  - `Left-Front-Leg-Arduino.ino`: Firmware for controlling the left front leg servos.
+  - `Right-Back-Leg-Arduino.ino`: Firmware for controlling the right back leg servos.
+  - `Right-Front-Leg-Arduino.ino`: Firmware for controlling the right front leg servos.
 
-- `README.md`: This file, providing an overarching overview and instructions for the entire project.
+- `Python File/`
+
+  - `kinematics/`
+    - `InverseKinematics.py`: Script to compute joint angles for left and right legs.
+  - `simulation/`
+    - `4 Legs Simulation.py`: 3D simulation of all four legs with interactive controls.
+    - `Left Leg Simulation.py`: 3D simulation of a single left leg.
+    - `Right Leg Simulation.py`: 3D simulation of a single right leg.
+
+- `Solidworks File/`
+
+  - (Placeholder for SolidWorks design files, e.g., `.sldprt` or `.sldasm` files)
+
+- `docs/`
+
+  - `ReadMe.md`: Main project overview and instructions.
+  - `arduino.md`: Detailed documentation for Arduino firmware.
+  - `components.md`: Information on design specifications and hardware components.
+  - `python.md`: Detailed documentation for Python simulation and kinematics scripts.
+
 ## Hardware Requirements
 
 - Arduino-compatible microcontroller (e.g., Arduino Uno)
