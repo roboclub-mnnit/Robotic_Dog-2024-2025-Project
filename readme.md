@@ -14,7 +14,6 @@ This repository contains code and documentation for a four-legged robotic dog, u
 - Kinematics and Transformation Matrices
 - Angle Ranges
 - Photo Gallery
-- License
 
 ## Project Overview
 
