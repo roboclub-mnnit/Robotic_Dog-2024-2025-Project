@@ -38,3 +38,7 @@
 For right leg, T1 varies from -90 to +90; T2 and T3 vary from 0 to 180
 
 For left leg, T1 varies from 90 to 270; T2 and T3 vary from 0 to 180
+
+![WhatsApp Image 2025-04-16 at 18 10 43_51172742](https://github.com/user-attachments/assets/e58ac61b-75bb-4f86-b44e-9769040e254d)
+![WhatsApp Image 2025-04-16 at 18 10 43_a656a363](https://github.com/user-attachments/assets/47c85fcb-1b6c-4915-8c7e-404f10ac5668)
+
